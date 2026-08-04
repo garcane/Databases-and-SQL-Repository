@@ -1,2 +1,33 @@
+# ---------------------------------------------------------------------------
+# Language detection
+# ---------------------------------------------------------------------------
 *.sql linguist-detectable=true
 *.sql linguist-language=sql
+*.SQL linguist-detectable=true
+*.SQL linguist-language=sql
+
+# The SQL Server tree is the preserved reference implementation. It is counted
+# in language stats but excluded from diff noise reviews.
+sqlserver/database/northwind/northwind.sql linguist-generated=true
+
+# ---------------------------------------------------------------------------
+# Line endings
+# ---------------------------------------------------------------------------
+* text=auto
+
+# ---------------------------------------------------------------------------
+# Binary / non-diffable assets
+# ---------------------------------------------------------------------------
+*.xlsx binary
+*.xls  binary
+*.png  binary
+*.pdf  binary
+
+# ---------------------------------------------------------------------------
+# Encoding exceptions
+#
+# create_qastore.sql was exported by SSMS as UTF-16LE and is preserved byte for
+# byte as part of the golden-source reference. Marking it binary prevents Git
+# from mangling the BOM or line endings on checkout across platforms.
+# ---------------------------------------------------------------------------
+sqlserver/database/qastore/create_qastore.sql binary
