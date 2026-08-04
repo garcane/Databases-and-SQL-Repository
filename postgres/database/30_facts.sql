@@ -10,8 +10,13 @@
 -- lines (one row per product per order) and the order itself (freight, ship-to
 -- address, shipment dates - one row per order). Modelling both in a single fact
 -- is the most common dimensional modelling error there is: freight would repeat
--- on every line and SUM(freight) would overstate cost by the average number of
--- lines per order - roughly 2.6x on this data.
+-- on every line and SUM(freight) would be overstated.
+--
+-- Measured on this data: true freight is 64,942.69, but summed across the line
+-- grain it becomes 207,306.10 - an overstatement of 3.19x. Note that this is
+-- HIGHER than the 2.60 average lines per order, because larger orders carry
+-- more freight and are weighted more heavily by the duplication. Guessing the
+-- error as "about the average line count" would itself have been wrong.
 --
 -- So there are two facts:
 --
