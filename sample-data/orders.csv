@@ -1,0 +1,129 @@
+order_id,customer_id,employee_id,order_date,required_date,shipped_date,ship_via,freight,ship_name,ship_address,ship_city,ship_region,ship_postal_code,ship_country
+10402,ERNSH,8,1997-01-02,1997-02-13,1997-01-10,2,67.88,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10403,ERNSH,4,1997-01-03,1997-01-31,1997-01-09,3,73.79,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10412,WARTH,8,1997-01-13,1997-02-10,1997-01-15,2,3.77,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10413,LAMAI,3,1997-01-14,1997-02-11,1997-01-16,2,95.66,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France
+10416,WARTH,8,1997-01-16,1997-02-13,1997-01-27,3,22.72,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10418,QUICK,4,1997-01-17,1997-02-14,1997-01-24,1,17.55,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10424,MEREP,7,1997-01-23,1997-02-20,1997-01-27,2,370.61,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10425,LAMAI,6,1997-01-24,1997-02-21,1997-02-14,2,7.93,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France
+10429,HUNGO,3,1997-01-29,1997-03-12,1997-02-07,2,56.63,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10430,ERNSH,4,1997-01-30,1997-02-13,1997-02-03,1,458.78,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10437,WARTH,8,1997-02-05,1997-03-05,1997-02-12,1,19.97,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10439,MEREP,6,1997-02-07,1997-03-07,1997-02-10,3,4.07,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10440,SAVEA,4,1997-02-10,1997-03-10,1997-02-28,2,86.53,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10442,ERNSH,3,1997-02-11,1997-03-11,1997-02-18,2,47.94,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10444,BERGS,3,1997-02-12,1997-03-12,1997-02-21,3,3.50,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10445,BERGS,3,1997-02-13,1997-03-13,1997-02-20,1,9.30,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10451,QUICK,4,1997-02-19,1997-03-05,1997-03-12,3,189.09,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10452,SAVEA,8,1997-02-20,1997-03-20,1997-02-26,1,140.26,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10454,LAMAI,4,1997-02-21,1997-03-21,1997-02-25,3,2.74,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France
+10455,WARTH,8,1997-02-24,1997-04-07,1997-03-03,2,180.45,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10456,KOENE,8,1997-02-25,1997-04-08,1997-02-28,2,8.12,Königlich Essen,Maubelstr. 90,Brandenburg,,14776,Germany
+10457,KOENE,2,1997-02-25,1997-03-25,1997-03-03,1,11.57,Königlich Essen,Maubelstr. 90,Brandenburg,,14776,Germany
+10468,KOENE,3,1997-03-07,1997-04-04,1997-03-12,3,44.12,Königlich Essen,Maubelstr. 90,Brandenburg,,14776,Germany
+10469,WHITC,1,1997-03-10,1997-04-07,1997-03-14,1,60.18,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA
+10470,BONAP,4,1997-03-11,1997-04-08,1997-03-14,2,64.56,Bon app',"12, rue des Bouchers",Marseille,,13008,France
+10476,HILAA,8,1997-03-17,1997-04-14,1997-03-24,3,4.41,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10483,WHITC,7,1997-03-24,1997-04-21,1997-04-25,2,15.28,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA
+10486,HILAA,1,1997-03-26,1997-04-23,1997-04-02,2,30.53,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10490,HILAA,7,1997-03-31,1997-04-28,1997-04-03,2,210.19,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10493,LAMAI,4,1997-04-02,1997-04-30,1997-04-10,3,10.64,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France
+10498,HILAA,8,1997-04-07,1997-05-05,1997-04-11,2,29.75,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10500,LAMAI,6,1997-04-09,1997-05-07,1997-04-17,1,42.68,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France
+10503,HUNGO,6,1997-04-11,1997-05-09,1997-04-16,2,16.74,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10504,WHITC,4,1997-04-11,1997-05-09,1997-04-18,3,59.13,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA
+10505,MEREP,3,1997-04-14,1997-05-12,1997-04-21,3,7.13,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10506,KOENE,9,1997-04-15,1997-05-13,1997-05-02,2,21.19,Königlich Essen,Maubelstr. 90,Brandenburg,,14776,Germany
+10510,SAVEA,6,1997-04-18,1997-05-16,1997-04-28,3,367.63,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10511,BONAP,4,1997-04-18,1997-05-16,1997-04-21,3,350.64,Bon app',"12, rue des Bouchers",Marseille,,13008,France
+10514,ERNSH,3,1997-04-22,1997-05-20,1997-05-16,2,789.95,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10515,QUICK,2,1997-04-23,1997-05-07,1997-05-23,1,204.47,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10516,HUNGO,2,1997-04-24,1997-05-22,1997-05-01,3,62.78,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10524,BERGS,1,1997-05-01,1997-05-29,1997-05-07,2,244.79,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10525,BONAP,1,1997-05-02,1997-05-30,1997-05-23,2,11.06,Bon app',"12, rue des Bouchers",Marseille,,13008,France
+10526,WARTH,4,1997-05-05,1997-06-02,1997-05-15,2,58.59,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10527,QUICK,7,1997-05-05,1997-06-02,1997-05-07,1,41.90,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10540,QUICK,3,1997-05-19,1997-06-16,1997-06-13,3,1007.64,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10542,KOENE,1,1997-05-20,1997-06-17,1997-05-26,3,10.95,Königlich Essen,Maubelstr. 90,Brandenburg,,14776,Germany
+10549,QUICK,5,1997-05-27,1997-06-10,1997-05-30,1,171.24,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10552,HILAA,2,1997-05-29,1997-06-26,1997-06-05,1,83.22,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10553,WARTH,2,1997-05-30,1997-06-27,1997-06-03,2,149.49,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10555,SAVEA,6,1997-06-02,1997-06-30,1997-06-04,3,252.49,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10565,MEREP,8,1997-06-11,1997-07-09,1997-06-18,2,7.15,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10567,HUNGO,1,1997-06-12,1997-07-10,1997-06-17,1,33.97,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10570,MEREP,3,1997-06-17,1997-07-15,1997-06-19,3,188.99,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10571,ERNSH,8,1997-06-17,1997-07-29,1997-07-04,3,26.06,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10572,BERGS,3,1997-06-18,1997-07-16,1997-06-25,2,116.43,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10583,WARTH,2,1997-06-30,1997-07-28,1997-07-04,2,7.28,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10588,QUICK,2,1997-07-03,1997-07-31,1997-07-10,3,194.67,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10590,MEREP,4,1997-07-07,1997-08-04,1997-07-14,3,44.77,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10595,ERNSH,2,1997-07-10,1997-08-07,1997-07-14,1,96.78,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10596,WHITC,8,1997-07-11,1997-08-08,1997-08-12,1,16.34,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA
+10601,HILAA,7,1997-07-16,1997-08-27,1997-07-22,1,58.30,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10603,SAVEA,8,1997-07-18,1997-08-15,1997-08-08,2,48.77,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10605,MEREP,1,1997-07-21,1997-08-18,1997-07-29,2,379.13,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10607,SAVEA,5,1997-07-22,1997-08-19,1997-07-25,1,200.24,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10610,LAMAI,8,1997-07-25,1997-08-22,1997-08-06,1,26.78,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France
+10612,SAVEA,1,1997-07-28,1997-08-25,1997-08-01,2,544.08,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10613,HILAA,4,1997-07-29,1997-08-26,1997-08-01,2,8.11,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10618,MEREP,1,1997-08-01,1997-09-12,1997-08-08,1,154.68,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10619,MEREP,3,1997-08-04,1997-09-01,1997-08-07,3,91.05,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10626,BERGS,1,1997-08-11,1997-09-08,1997-08-20,2,138.69,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10627,SAVEA,8,1997-08-11,1997-09-22,1997-08-21,3,107.46,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10630,KOENE,1,1997-08-13,1997-09-10,1997-08-19,2,32.35,Königlich Essen,Maubelstr. 90,Brandenburg,,14776,Germany
+10631,LAMAI,8,1997-08-14,1997-09-11,1997-08-15,1,0.87,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France
+10633,ERNSH,7,1997-08-15,1997-09-12,1997-08-18,3,477.90,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10636,WARTH,4,1997-08-19,1997-09-16,1997-08-26,1,1.15,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10641,HILAA,4,1997-08-22,1997-09-19,1997-08-26,2,179.61,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10646,HUNGO,9,1997-08-27,1997-10-08,1997-09-03,3,142.33,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10654,BERGS,5,1997-09-02,1997-09-30,1997-09-11,1,55.26,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10657,SAVEA,2,1997-09-04,1997-10-02,1997-09-15,2,352.69,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10658,QUICK,4,1997-09-05,1997-10-03,1997-09-08,1,364.15,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10661,HUNGO,7,1997-09-09,1997-10-07,1997-09-15,3,17.55,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10663,BONAP,2,1997-09-10,1997-09-24,1997-10-03,2,113.15,Bon app',"12, rue des Bouchers",Marseille,,13008,France
+10667,ERNSH,7,1997-09-12,1997-10-10,1997-09-19,1,78.09,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10672,BERGS,9,1997-09-17,1997-10-01,1997-09-26,2,95.75,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10678,SAVEA,7,1997-09-23,1997-10-21,1997-10-16,3,388.98,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10687,HUNGO,9,1997-09-30,1997-10-28,1997-10-30,2,296.43,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10689,BERGS,1,1997-10-01,1997-10-29,1997-10-07,2,13.42,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10691,QUICK,2,1997-10-03,1997-11-14,1997-10-22,2,810.05,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10693,WHITC,3,1997-10-06,1997-10-20,1997-10-10,3,139.34,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA
+10694,QUICK,8,1997-10-06,1997-11-03,1997-10-09,3,398.36,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10696,WHITC,8,1997-10-08,1997-11-19,1997-10-14,3,102.55,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA
+10698,ERNSH,4,1997-10-09,1997-11-06,1997-10-17,1,272.47,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10700,SAVEA,3,1997-10-10,1997-11-07,1997-10-16,1,65.10,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10701,HUNGO,6,1997-10-13,1997-10-27,1997-10-15,3,220.31,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10705,HILAA,9,1997-10-15,1997-11-12,1997-11-18,2,3.52,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10711,SAVEA,5,1997-10-21,1997-12-02,1997-10-29,2,52.41,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10712,HUNGO,3,1997-10-21,1997-11-18,1997-10-31,1,89.93,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10713,SAVEA,1,1997-10-22,1997-11-19,1997-10-24,1,167.05,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10714,SAVEA,5,1997-10-22,1997-11-19,1997-10-27,3,24.49,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10715,BONAP,3,1997-10-23,1997-11-06,1997-10-29,1,63.20,Bon app',"12, rue des Bouchers",Marseille,,13008,France
+10718,KOENE,1,1997-10-27,1997-11-24,1997-10-29,3,170.88,Königlich Essen,Maubelstr. 90,Brandenburg,,14776,Germany
+10721,QUICK,5,1997-10-29,1997-11-26,1997-10-31,3,48.92,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10722,SAVEA,8,1997-10-29,1997-12-10,1997-11-04,1,74.58,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10723,WHITC,3,1997-10-30,1997-11-27,1997-11-25,1,21.72,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA
+10724,MEREP,8,1997-10-30,1997-12-11,1997-11-05,2,57.75,Mère Paillarde,43 rue St. Laurent,Montréal,Québec,H1J 1C3,Canada
+10730,BONAP,5,1997-11-05,1997-12-03,1997-11-14,1,20.12,Bon app',"12, rue des Bouchers",Marseille,,13008,France
+10732,BONAP,3,1997-11-06,1997-12-04,1997-11-07,1,16.97,Bon app',"12, rue des Bouchers",Marseille,,13008,France
+10733,BERGS,1,1997-11-07,1997-12-05,1997-11-10,3,110.11,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10736,HUNGO,9,1997-11-11,1997-12-09,1997-11-21,2,44.10,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland
+10740,WHITC,4,1997-11-13,1997-12-11,1997-11-25,2,81.88,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA
+10745,QUICK,9,1997-11-18,1997-12-16,1997-11-27,1,3.52,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10748,SAVEA,3,1997-11-20,1997-12-18,1997-11-28,1,232.55,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10750,WARTH,9,1997-11-21,1997-12-19,1997-11-24,1,79.30,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10755,BONAP,4,1997-11-26,1997-12-24,1997-11-28,2,16.71,Bon app',"12, rue des Bouchers",Marseille,,13008,France
+10757,SAVEA,6,1997-11-27,1997-12-25,1997-12-15,1,8.19,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA
+10764,ERNSH,6,1997-12-03,1997-12-31,1997-12-08,3,145.45,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10765,QUICK,3,1997-12-04,1998-01-01,1997-12-09,3,42.74,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10771,ERNSH,9,1997-12-10,1998-01-07,1998-01-02,2,11.19,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10773,ERNSH,1,1997-12-11,1998-01-08,1997-12-16,3,96.43,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10776,ERNSH,1,1997-12-15,1998-01-12,1997-12-18,3,351.53,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10778,BERGS,3,1997-12-16,1998-01-13,1997-12-24,1,6.79,Berglunds snabbköp,Berguvsvägen  8,Luleå,,S-958 22,Sweden
+10781,WARTH,2,1997-12-17,1998-01-14,1997-12-19,3,73.16,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland
+10787,LAMAI,2,1997-12-19,1998-01-02,1997-12-26,1,249.93,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France
+10788,QUICK,1,1997-12-22,1998-01-19,1998-01-19,2,42.70,QUICK-Stop,Taucherstraße 10,Cunewalde,,01307,Germany
+10795,ERNSH,8,1997-12-24,1998-01-21,1998-01-20,2,126.66,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria
+10796,HILAA,3,1997-12-25,1998-01-22,1998-01-14,1,26.52,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristóbal,Táchira,5022,Venezuela
+10799,KOENE,9,1997-12-26,1998-02-06,1998-01-05,3,30.76,Königlich Essen,Maubelstr. 90,Brandenburg,,14776,Germany

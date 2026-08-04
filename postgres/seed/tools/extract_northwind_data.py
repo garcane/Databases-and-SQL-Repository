@@ -69,6 +69,26 @@ TABLES: dict[str, tuple[str, list[str]]] = {
 # Source columns dropped on extraction (embedded bitmaps).
 DROPPED_COLUMNS = {"picture", "photo"}
 
+# Columns holding dates, normalised to ISO 8601 on extraction.
+#
+# The source writes dates as US M/D/YYYY ("7/4/1996"). Left in that form, the
+# meaning of the CSV depends on the LOADING SERVER's DateStyle setting:
+#
+#     SET DateStyle='ISO,MDY';  SELECT '7/4/1996'::date;   -->  1996-07-04
+#     SET DateStyle='ISO,DMY';  SELECT '7/4/1996'::date;   -->  1996-04-07
+#
+# Both succeed. Neither warns. On a server configured DMY - the default in most
+# UK and European locales - every order would load three months out, and no
+# constraint or test that does not know the correct answer could detect it.
+#
+# Normalising here makes the CSV mean one thing everywhere, independent of any
+# server setting. This is the same class of defect as the source's '2015/01/01'
+# literal noted in docs/migration-guide.md.
+DATE_COLUMNS = {
+    "orderdate", "requireddate", "shippeddate",   # orders
+    "birthdate", "hiredate",                      # employees
+}
+
 # Column lists for the statements that omit them, e.g.
 #   INSERT "Customers" VALUES('ALFKI', ...)
 # Order is the source CREATE TABLE order and must not be rearranged.
@@ -169,13 +189,45 @@ def split_values(text: str, start: int) -> tuple[list[tuple[str, bool]], int]:
     raise ValueError("unterminated VALUES tuple")
 
 
-def clean(value: str, was_quoted: bool) -> str | None:
+def to_iso_date(value: str) -> str:
+    """
+    Normalise a source date literal to ISO 8601 (YYYY-MM-DD[ HH:MM:SS]).
+
+    Handles the two forms present in the source:
+        7/4/1996                 US M/D/YYYY  -> 1996-07-04
+        1996-07-04 00:00:00      already ISO  -> returned unchanged
+
+    The month/day order is NOT a guess: the source is a US-authored Microsoft
+    export, and the canonical Northwind first order is 4 July 1996, which the
+    file writes as 7/4/1996. Reading it as D/M would place it on 7 April.
+    """
+    v = value.strip()
+    if not v:
+        return v
+
+    # Already ISO (optionally with a time component) - leave alone.
+    if len(v) >= 10 and v[4] == "-" and v[7] == "-":
+        return v
+
+    date_part, _, time_part = v.partition(" ")
+    bits = date_part.split("/")
+    if len(bits) != 3:
+        return v   # unrecognised; pass through rather than corrupt it
+
+    month, day, year = bits
+    iso = f"{int(year):04d}-{int(month):02d}-{int(day):02d}"
+    return f"{iso} {time_part}".strip()
+
+
+def clean(value: str, was_quoted: bool, column: str = "") -> str | None:
     """Convert one raw literal to its CSV representation. None means SQL NULL."""
     v = value.strip()
     if not was_quoted and v.upper() == "NULL":
         return None
     if not was_quoted and v.lower().startswith("0x"):   # binary blob
         return None
+    if column in DATE_COLUMNS:
+        return to_iso_date(v)
     return v
 
 
@@ -208,7 +260,7 @@ def parse(text: str) -> dict[str, list[list[str | None]]]:
             )
 
         record = {
-            col: clean(lit, was_quoted)
+            col: clean(lit, was_quoted, col)
             for col, (lit, was_quoted) in zip(source_cols, literals)
             if col not in DROPPED_COLUMNS
         }
