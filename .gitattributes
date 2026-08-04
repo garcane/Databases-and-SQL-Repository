@@ -24,7 +24,6 @@ sqlserver/database/northwind/northwind.sql linguist-generated=true
 *.pdf  binary
 
 # ---------------------------------------------------------------------------
-<<<<<<< HEAD
 # Golden-source preservation
 #
 # The sqlserver/ tree is a byte-for-byte reference implementation. Disabling
@@ -33,14 +32,7 @@ sqlserver/database/northwind/northwind.sql linguist-generated=true
 # ---------------------------------------------------------------------------
 sqlserver/** -text
 
-# create_qastore.sql was exported by SSMS as UTF-16LE. Marking it binary also
-# prevents Git from mangling the BOM or attempting a text diff.
-=======
-# Encoding exceptions
-#
 # create_qastore.sql was exported by SSMS as UTF-16LE and is preserved byte for
 # byte as part of the golden-source reference. Marking it binary prevents Git
-# from mangling the BOM or line endings on checkout across platforms.
-# ---------------------------------------------------------------------------
->>>>>>> 3386b5074880319de000e810c3b88c8fa2eaa214
+# from mangling the BOM, converting line endings, or attempting a text diff.
 sqlserver/database/qastore/create_qastore.sql binary

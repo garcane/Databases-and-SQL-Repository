@@ -1,0 +1,16 @@
+# Cygwin/Git-Bash crash dumps
+*.stackdump
+
+# Local PostgreSQL scratch clusters and logs
+pgdata/
+*.log
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local environment
+.env
+*.local
